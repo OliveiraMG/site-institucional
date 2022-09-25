@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
 </head>
 <body>
     <!--HEADER-->
@@ -25,21 +25,28 @@
         </div>
     </div>
 
-    
     <!-- Body//Banner -->
     <div class="banner">
         <div class="container">
             <div class="caixa-formulario">
-                <h1>Olá, Seja Bem-vindo</h1>
+                <h1>Bem-vindo!</h1>
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Seu Nome:">
+                </div>
                 <div class="campo">
                     <label for="email">E-mail:</label>
-                    <input type="text" id="email" placeholder="email@gmail.com">
+                    <input type="text" id="email" placeholder="meuemail@provedor.com">
                 </div>
                 <div class="campo">
-                    <label for="password">Senha:</label>
-                    <input type="password" id="password" placeholder="**********">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="password" placeholder="*******">
                 </div>
-                <button>Enviar</button>
+                <div class="campo">
+                    <label for="csenha">Confirmação de senha:</label>
+                    <input type="password" id="cpassword" placeholder="*******">
+                </div>
+                <button>Cadastrar</button>
             </div>
         </div>
     </div>
